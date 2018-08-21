@@ -74,7 +74,9 @@ Optional:
 * AWS_SECURITY_TOKEN: When using AWS STS
 * Pass ``--aws-instance-profile`` to gather credentials from the
   Instance Profile.  See `Using AWS IAM Instance Profiles`.
-
+* WALE_S3_DISABLE_SSE: When set, will disable server-side
+  encryption. Useful when using WAL-E with a S3-interace compatible
+  store don't necessarily support SSE
 
 Azure Blob Store
 ''''''''''''''''
